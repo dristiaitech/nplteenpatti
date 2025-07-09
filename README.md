@@ -1,13 +1,13 @@
 
 # nplteenpatti
 
-A modern, real-time multiplayer Teen Patti (Indian Poker) table built with React, TypeScript, and Tailwind CSS. Play anonymously with friends, manage bets, and enjoy a seamless digital card table experience.
+A modern, real-time multiplayer Teen Patti table built with React, TypeScript, and Tailwind CSS. Play anonymously with friends, manage bets, and enjoy a seamless digital card table experience.
 
 ## Features
 
 - **Multiplayer Table:** Up to 5 players per table, with one player as Admin.
 - **Admin Controls:** Distribute balances, declare winners, start new rounds, and manage players.
-- **Betting System:** Players can place bets of ₹5, ₹10, or ₹20 per round.
+- **Betting System:** Players can place bets of Rs. 5, Rs. 10, or Rs. 20 per round.
 - **Session Persistence:** Player and game state are saved in localStorage for seamless reloads.
 - **Modern UI:** Beautiful, responsive design using Tailwind CSS and Lucide React icons.
 - **Anonymous Play:** No login required; sessions are managed locally.
@@ -73,7 +73,7 @@ Defined in `src/types/game.ts`:
 
 ## Usage
 
-- The first player joins as Admin and distributes ₹1000 to all players.
+- The first player joins as Admin and distributes Rs. 1000 to all players.
 - Players join, select their names, and place bets.
 - Admin declares the winner and distributes the pot.
 - Start new rounds, add/remove players, and repeat!
@@ -111,7 +111,3 @@ We welcome contributions from everyone! To keep the project stable and organized
 - If you are unsure, open a draft PR or ask a question in the issues.
 
 Thank you for helping improve this project!
-
-## License
-
-MIT
